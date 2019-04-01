@@ -1,0 +1,78 @@
+  <div style={{marginLeft: "15%"}}>
+            <GridContainer spacing={24} lg={10} md={10} sm={12} xs={12} cellHeight={200} align="center">
+              <GridItem lg={6} xs={12} md={6} sm={6}>
+                <GridContainer spacing={24} >
+                  <GridItem lg={12} md={12}>
+                    <div className= {classes.ImageDiv}>
+                    <img src={image1} width="200" alt="janu" className={classes.ImageEven1+" "+classes.column} />
+                    <div className={classes.Overlay} style={{'@media(minWidth: 780px)' : {
+    width: '80%'
+  }}}>
+                    <div className={classes.socialIcons}>
+                   
+                        <i className="fab fa-facebook-square" style={{fontSize:"medium",paddingBottom:"90%",cursor:"pointer"}}/>
+                     
+                      
+                        <i className="fab fa-twitter" style={{fontSize:"small",paddingBottom:"90%",cursor:"pointer"}}/>
+                  
+                        <i className="fab fa-skype" style={{fontSize:"small",paddingBottom:"90%",cursor:"pointer"}} />
+                   
+                    </div>
+                    <GridItem lg={1} sm={1} xs={1} md={1} className={classes.HeadingImageSection}>
+                    Myself
+                    </GridItem>
+                    <div className={classes.OverlayPara}>The Treaty of Versailles permitted the German navy to keep eight obsolete battleships, including Schlesien, to defend the German coast. Modernized in the mid-1920s, the ship saw limited combat during World War II, briefly bombarding Polish forces during the invasion of Poland in September 1939. After escorting minesweepers during the invasion of Norway and Denmark 
+                    </div>
+
+                   <GridContainer lg={12} md={11} sm={6}>
+                    <GridItem lg={6} md={7}>
+                    <Button
+                    color="success"
+                    target="_blank"
+                 
+                    round
+                  >
+                    REQUEST A QUOTE
+                  </Button>
+                  </GridItem>
+                  <GridItem lg={6} md={1}>
+              <Button
+                    color="success"
+                    target="_blank"
+                    
+                    round
+                  >
+                    LEARN MORE
+                  </Button>
+                  </GridItem>
+                  </GridContainer>
+                 
+                  </div>
+                  <div className={classes.BeforeOnhoverHeading}>Myself</div>
+
+                    </div>
+                  
+                  </GridItem>
+
+                  <GridItem>
+                    <img src={image4} width="200" alt="janu" className={classes.ImageOdd1} />
+                  </GridItem>
+
+                </GridContainer>
+              </GridItem>
+              <GridItem lg={6} xs={12} sm={6} md={6}>
+                <GridContainer spacing={24} >
+                  <GridItem>
+                    <img src={image2} width="200" alt="janu" className={classes.ImageOdd2}/>
+                  </GridItem>
+
+                  <GridItem>
+                    <img src={image3} width="200" alt="janu" className={classes.ImageEven2}/>
+
+                  </GridItem>
+
+                </GridContainer>
+              </GridItem>
+            </GridContainer>
+            </div>
+ 
